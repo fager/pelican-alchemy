@@ -1,9 +1,9 @@
 {% extends "index.html" %}
 
 {% block title %}
-{{ author }} Articles | {{ SITENAME }}
+{{ gettext('Articles from', DEFAULT_LANG) }} {{ author }} | {{ SITENAME }}
 {% endblock %}
 
 {% block page_header %}
-{{ author }} Articles
+{{ gettext('Articles from', DEFAULT_LANG) }} {{ author }}
 {% endblock %}

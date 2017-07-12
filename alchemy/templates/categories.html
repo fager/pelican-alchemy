@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
 {% block title %}
-Categories {{ super() }}
+{{ gettext('Categories', DEFAULT_LANG) }} {{ super() }}
 {% endblock %}
 
 {% block page_header %}
-Categories
+{{ gettext('Categories', DEFAULT_LANG) }}
 {% endblock %}
 
 {% block content %}

@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
 {% block title %}
-Authors {{ super() }}
+{{ gettext('Authors', DEFAULT_LANG) }} {{ super() }}
 {% endblock %}
 
 {% block page_header %}
-Authors
+{{ gettext('Authors', DEFAULT_LANG) }}
 {% endblock %}
 
 {% block content %}
